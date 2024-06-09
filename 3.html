@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles3.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+<!-- ======================= Start Header Area ============================== -->
+<header class="header_area">
+  <div class="main-menu">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" style="color: rgba(17, 4, 136, 0.904);" href="index.html" target="_self">JCoding</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" target="_self">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html" target="_self">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- ======================= End Header Area ============================== -->
+
+<!-- ======================= Start Main Area ================================ -->
+<main class="site-main">
+  <div class="buttons">
+    <a href="2.html" target="_self"><</a>
+    <a href="portfolio.html" target="_self">1</a>
+    <a href="2.html" target="_self">2</a>
+    <a href="3.html" target="_self">3</a>
+    <a href="3.html" target="_self">></a>
+  </div>
+
+  <!-- ======================= Form Area ============================= -->
+  <h1>Form</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-8 col-10">
+        <form class="centered-form" onsubmit="alert('Form Submitted!')">
+          <h3>Information</h3>
+          <div class="form-group">
+            <label for="fname">First name:</label>
+            <input type="text" class="form-control" id="fname" name="fname">
+          </div>
+          <div class="form-group">
+            <label for="lname">Last name:</label>
+            <input type="text" class="form-control" id="lname" name="lname">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- ======================= End of Form Area ============================= -->
+
+  <hr>
+
+  <!-- ======================= List Area ============================= -->
+  <h1>Recipe</h1>
+  <div class="card" style="width: 18rem;">
+    <img src="./img/mango.jpg" class="card-img-top" alt="Mango Float">
+    <div class="card-body">
+      <h5 class="card-title">Mango Float</h5>
+      <p class="card-text">Mango float, the Filipino icebox cake also known as mango royale.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Graham Crackers</li>
+      <li class="list-group-item">Sweetened Cream</li>
+      <li class="list-group-item">Sliced Ripe Mangoes</li>
+    </ul>
+  </div>
+  <!-- ======================= End of List Area ============================= -->
+
+  <hr>
+
+  <!-- ======================= Tables Area ============================= -->
+  <h1>Basic Table</h1>
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Contact No.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>James</td>
+        <td>09123432354</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>09234567896</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Henry</td>
+        <td>Smith</td>
+        <td>09785634261</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- ======================= End of Tables Area ============================= -->
+</main>
+<!-- ======================= End of Main Area ================================ -->
+
+<!-- ========================= Footer Area ========================== -->
+<footer class="footer-area">
+  <div class="container">
+    <div class="">
+      <div class="site-logo text-center py-4">
+        <a class="logo" style="color: rgba(17, 4, 136, 0.904);" href="index.html" target="_self">JCoding</a>
+      </div>
+      <div class="social text-center">
+        <h5 class="text-uppercase">Follow me</h5>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="copyrights text-center">
+        <p class="para">
+          Copyright ©2024 All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ========================= End of Footer Area ========================== -->
+
+<!-- Jquery js file -->
+<script src="./js/jquery.3.4.1.js"></script>
+<!-- Magnific Popup script file -->
+<script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<!-- Custom JS file -->
+<script src="./js/main.js"></script>
+
+</body>
+</html>

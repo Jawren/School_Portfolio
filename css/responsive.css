@@ -1,0 +1,69 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar .navbar-brand p, h4
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main input{
+        width: 15rem !important;
+    }
+    .card{
+        width: 10rem !important;
+    }
+    .buttons {
+        width: 18rem;
+    }
+}
+
+
+/* if the viewport is equal to 470px or less than that */ 
+@media only screen and (max-width: 470px){
+    .card {
+        width: 15rem !important;
+    }
+    audio {
+        width: 13rem;
+    }
+}
+
+
+/* if the viewport is equal to 792px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .site-main .brand-area {
+        margin-left: 30%;
+        padding-left: 1%;
+        width: 80%;
+    }
+
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+}
